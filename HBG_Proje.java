@@ -29,8 +29,8 @@ public class JavaApplication50 {
         String []sekanslar=new String[2];
         do {
             X=false;
-            sekanslar[0]=JOptionPane.showInputDialog("1.seknası giriniz (sağdan-sola yazılıcak [0. satırda olucak])");
-            sekanslar[1]=JOptionPane.showInputDialog("2.seknası giriniz (yukardan-aşağıya yazılıcak [0. sütünda olucak]");
+            sekanslar[0]=JOptionPane.showInputDialog("1.seknasÃ½ giriniz (saÃ°dan-sola yazÃ½lÃ½cak [0. satÃ½rda olucak])");
+            sekanslar[1]=JOptionPane.showInputDialog("2.seknasÃ½ giriniz (yukardan-aÃ¾aÃ°Ã½ya yazÃ½lÃ½cak [0. sÃ¼tÃ¼nda olucak]");
             sekanslar[0]=sekanslar[0].toLowerCase();
             sekanslar[1]=sekanslar[1].toLowerCase();
             for (int i = 0; i < sekanslar[0].length(); i++) {
@@ -52,7 +52,7 @@ public class JavaApplication50 {
                 }
             }
             if(X==true){
-                JOptionPane.showMessageDialog(null, " Lütfen dna yı temsil eden harfler dışında(a,c,g,t) harf girmeyin ! ", "Hata Mesajı",1 );
+                JOptionPane.showMessageDialog(null, " LÃ¼tfen dna yÃ½ temsil eden harfler dÃ½Ã¾Ã½nda(a,c,g,t) harf girmeyin ! ", "Hata MesajÃ½",1 );
             }
                 
                 
@@ -95,7 +95,7 @@ class Jtable_Fasta extends JFrame
 
     public Jtable_Fasta(String sekans1, String sekans2 , int[][]kordinat)
     {
-        super("Fasta Hizlama Matrisi Ve Puanları");       
+        super("Fasta Hizlama Matrisi Ve PuanlarÃ½");       
         this.setSize(1280, 720);
         this.setVisible(true);
         this.setResizable(true);
@@ -107,11 +107,11 @@ class Jtable_Fasta extends JFrame
         jpnl.setLayout(null);
         this.add(jpnl);
         
-        jlb=new JLabel("*****    Ahmet Bahadır Aksakal     *****     20360859079     *****     k==2 kabul edilmiştir ***** ");
+        jlb=new JLabel("*****    Ahmet BahadÃ½r Aksakal     *****     20360859079     *****     k==2 kabul edilmiÃ¾tir ***** ");
         jlb.setBounds(20,0,1200,18);
         jpnl.add(jlb);
         
-        jlb2=new JLabel("fonskiyonları tam toplayamadım, kodun okunurluğu kötü oldu  :(  ");
+        jlb2=new JLabel("fonskiyonlarÃ½ tam toplayamadÃ½m, kodun okunurluÃ°u kÃ¶tÃ¼ oldu  :(  ");
         jlb2.setBounds(20,20,500,18);
         jpnl.add(jlb2);
         

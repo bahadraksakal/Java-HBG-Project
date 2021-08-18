@@ -1,0 +1,19 @@
+								HESAPLAMALI BÝYOLOJÝ ÖDEVÝ
+								
+Ders Hocasý: Ergün Gümüþ														Odev Teslim Tarihi: 10.05.2021
+
+Öðrenci ad-soyad-no: Ahmet Bahadýr - Aksakal - 20360859079
+
+
+- Ýlk olarak kitabýmýzda bahsi geçen iþlemi yapabilmek için kullanýcadan iki adet matris almam lazýmdý. Bu iþlemi sekans al isimli metodun içinde gerçekleþtirdim.
+Bu aþamada DNA dizilerinin A,C,G ve T bazlarýndan oluþtuðunu bildiðimiz için baþka karakterleri kabul etmeyecek bir kod yazdým.
+Ayný zamanda fonksiyonu büyük-küçük harfe duyarlý olmayacak þekilde tasarladým.
+- Ýkinci olarak dot matrisi oluþturabilmek için sekanslarýn k sayýsý (bazlara kaçlý olarak bakýlacýðý)'ný kullanýcadan almam lazýmdý fakat bu iþlem zaten uzun olan kodu
+ iyice uzatacaðýndan ve oknurluðu düþereceðinden ayný zamanda karþýlaþtýðým  örnek þablonlarda k sayýsýný hep iki olarak alýnmýþ olduðundan bende k yý iki kabul ederek
+ iþlemlerime devam ettim. Fakat bu aþamadý k=2 gibi bir belirleme yapmaktansa direkt olarak kodu k=2 imiþ gibi yazdým. Bu nedenle k sayýsý diye bir þey kaynak kodun içinde yok.
+ -Üçüncü olarak dot-matris kurallarýna uygun olarak kesiþim noktalarýný bulan ve bu noktalarý paunlayan bir kod yazdým.Bu kurallara uygun bir biçimde kesiþen noktalarýn devam
+ etmesi durumunda , bu hücrenin puanýný +1 puan daha artýrdým.
+ -Dördüncü olarak Javada bulunan swing kütüphanesinin içindeki Jtable 'ý kullanarak elde ettiðimiz dot matrisi renklendirilmiþ olarak ekrana veren  bir pencere yaptým. 
+ -Son olarak kodu test ettim elimde hazýr örnek ve tablolarla karþýlaþtýrarak sorunsuzca çalýþtýðýný ispatladým.
+ 
+ 

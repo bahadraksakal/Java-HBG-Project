@@ -1,4 +1,4 @@
-# Java_HBG_Project
+# Java Dili Yazmış Olduğum Hesaplamalı Biyoloji Dersi Proje Ödevim
 
 My computational biology project.
 

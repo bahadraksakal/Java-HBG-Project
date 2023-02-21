@@ -1,4 +1,4 @@
-package javaapplication50;
+package hbg.java.gorsel.proje;
 
 import javax.swing.*;
 import java.awt.*;
@@ -7,7 +7,7 @@ import static javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.TableColumnModel;
 
-public class JavaApplication50 {
+public class HBGJavaGorselProje {
 
     public static void main(String[] args) {
         String sekans1; //J "ccatcgccatcg"        
@@ -29,8 +29,8 @@ public class JavaApplication50 {
         String []sekanslar=new String[2];
         do {
             X=false;
-            sekanslar[0]=JOptionPane.showInputDialog("1.seknasý giriniz (saðdan-sola yazýlýcak [0. satýrda olucak])");
-            sekanslar[1]=JOptionPane.showInputDialog("2.seknasý giriniz (yukardan-aþaðýya yazýlýcak [0. sütünda olucak]");
+            sekanslar[0]=JOptionPane.showInputDialog("1.seknası giriniz (sağdan-sola yazılıcak [0. satırda olucak])");
+            sekanslar[1]=JOptionPane.showInputDialog("2.seknası giriniz (yukardan-aşağıya yazılıcak [0. sütünda olucak]");
             sekanslar[0]=sekanslar[0].toLowerCase();
             sekanslar[1]=sekanslar[1].toLowerCase();
             for (int i = 0; i < sekanslar[0].length(); i++) {
@@ -52,7 +52,7 @@ public class JavaApplication50 {
                 }
             }
             if(X==true){
-                JOptionPane.showMessageDialog(null, " Lütfen dna yý temsil eden harfler dýþýnda(a,c,g,t) harf girmeyin ! ", "Hata Mesajý",1 );
+                JOptionPane.showMessageDialog(null, " Lütfen Dna'yı temsil eden harfler dışında (a,c,g,t) harf girmeyin ! ", "Hata Mesajı",1 );
             }
                 
                 
@@ -95,7 +95,7 @@ class Jtable_Fasta extends JFrame
 
     public Jtable_Fasta(String sekans1, String sekans2 , int[][]kordinat)
     {
-        super("Fasta Hizlama Matrisi Ve Puanlarý");       
+        super("Fasta Hizlama Matrisi Ve Puanları");       
         this.setSize(1280, 720);
         this.setVisible(true);
         this.setResizable(true);
@@ -107,11 +107,11 @@ class Jtable_Fasta extends JFrame
         jpnl.setLayout(null);
         this.add(jpnl);
         
-        jlb=new JLabel("*****    Ahmet Bahadýr Aksakal     *****     20360859079     *****     k==2 kabul edilmiþtir ***** ");
+        jlb=new JLabel("*****    Ahmet Bahadır Aksakal     *****     20360859079     *****     k==2 kabul edilmiştir ***** ");
         jlb.setBounds(20,0,1200,18);
         jpnl.add(jlb);
         
-        jlb2=new JLabel("fonskiyonlarý tam toplayamadým, kodun okunurluðu kötü oldu  :(  ");
+        jlb2=new JLabel("fonskiyonları tam toplayamadım zamanım yoktu, bu nedenle kodun okunurluğu kötü oldu  :(  ");
         jlb2.setBounds(20,20,500,18);
         jpnl.add(jlb2);
         
